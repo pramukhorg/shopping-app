@@ -6,7 +6,7 @@
 
   <groupId>com.edu.app</groupId>
   <artifactId>shopping-app</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1</version>
 
   <name>shopping-app</name>
   <!-- FIXME change it to the project's website -->
