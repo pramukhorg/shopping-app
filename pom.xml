@@ -72,4 +72,21 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>shopping-app-releases</id>
+      <name>shopping-app-releases</name>
+      <url>http://172.31.40.167:8081/nexus/content/repositories/shopping-app-releases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>shopping-app-snapshots</id>
+      <name>shopping-app-snapshots</name>
+      <url>http://172.31.40.167:8081/nexus/content/repositories/shopping-app-snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+</distributionManagement>
 </project>
